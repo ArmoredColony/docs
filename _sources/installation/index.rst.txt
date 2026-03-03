@@ -1,5 +1,5 @@
-Pixie Pivot
-=================
+How to Install Blender Extensions
+=================================
 
 This is a test page to verify that the documentation structure is working.
 
