@@ -1,5 +1,5 @@
-How to Install Blender Extensions
-=================
+How to Install
+=================================
 
 This is a test page to verify that the documentation structure is working.
 
