@@ -14,7 +14,7 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['sphinx.ext.githubpages']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -27,4 +27,19 @@ exclude_patterns = []
 html_theme = 'furo'
 html_static_path = ['_static']
 
-html_baseurl = 'https://armoredcolony.github.io/docs'
+html_theme_options = {
+    "light_css_variables": {
+        "color-brand-primary": "#6b7cff",
+        "color-brand-content": "#7a8bff",
+        "color-link": "#ff7a5c",
+        "color-background-primary": "#0f172a",
+        "color-background-secondary": "#1a2238",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#6b7cff",
+        "color-brand-content": "#7a8bff",
+        "color-link": "#ff7a5c",
+        "color-background-primary": "#0f172a",
+        "color-background-secondary": "#1a2238",
+    },
+}
