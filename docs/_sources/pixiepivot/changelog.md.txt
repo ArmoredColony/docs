@@ -1,7 +1,7 @@
 # Pixie Pivot Changelog
 
 ## 1.2.0
-03/March/2026
+04/March/2026
 
 ### Added
 - Support for targeting mesh elements while in Object Mode.
