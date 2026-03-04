@@ -8,15 +8,16 @@ Extension Docs
 
    Browse available extensions or use the search bar above.
 
+----
 
-.. grid:: 1 1 2 3
+.. grid:: 1
    :gutter: 2
    :padding: 0
-   :class-row: justify-center surface
+   :class: justify-center
 
    .. grid-item-card:: :octicon:`star` Pixie Pivot
       :text-align: center
-      :link: pixiepivot/index
+      :link: pixiepivot/
 
 .. toctree::
    :hidden:
