@@ -17,3 +17,9 @@ Extension Docs
    .. grid-item-card:: :octicon:`star` Pixie Pivot
       :text-align: center
       :link: pixiepivot/index
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   pixiepivot/index
