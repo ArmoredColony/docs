@@ -16,4 +16,4 @@ Extension Docs
 
    .. grid-item-card:: :octicon:`star` Pixie Pivot
       :text-align: center
-      :link: /pixiepivot
+      :link: /pixiepivot/index
