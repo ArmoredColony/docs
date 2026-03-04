@@ -1,20 +1,19 @@
-
-
 :layout: landing
-:description: Here you will find documentation for *Armored Colony* extensions.
+:description: Armored Colony extension documentation.
 
 Extension Docs
 ================
 
 .. rst-class:: lead
 
-    Select your Blender extension below or use the search in the top right.
+   Browse available extensions or use the search bar above.
 
 
+.. grid:: 1 1 2 3
+   :gutter: 2
+   :padding: 0
+   :class-row: justify-center surface
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
-
-   pixiepivot/index
+   .. grid-item-card:: :octicon:`star` Pixie Pivot
+      :text-align: center
+      :link: /pixiepivot
