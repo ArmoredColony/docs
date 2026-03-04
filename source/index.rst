@@ -1,19 +1,20 @@
-.. Extensions documentation master file, created by
-   sphinx-quickstart on Tue Mar  3 15:30:00 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+:layout: landing
+:description: Armored Colony extension documentation.
 
-Extensions documentation
-========================
+Extension Docs
+================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+.. rst-class:: lead
 
+   Browse available extensions or use the search bar above.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+----
 
-   installation/index
-   pixiepivot/index
+.. grid:: 1 1 2 3
+   :gutter: 2
+   :padding: 0
+   
+   .. grid-item-card:: Pixie Pivot
+      :text-align: center
+      :link: pixiepivot/
+

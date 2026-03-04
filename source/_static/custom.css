@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300;400;600&display=swap');
+
+/* html.light {
+    --yue-c-text: #ddd0f0;
+} */
+
+html.dark {
+    /* --yue-c-text: #cdc9dd; */
+    /* --sy-c-heading: #ffcfd6; */
+    --sy-f-heading: 'Onest', sans-serif;
+}
+

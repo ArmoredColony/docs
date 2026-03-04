@@ -1,9 +1,8 @@
-Pixie Pivot
-=================
-
-This is a test page to verify that the documentation structure is working.
-
-If you can read this page inside the sidebar navigation, then the folder is correctly linked.
+PixiePivot
+==========
 
 .. toctree::
-	:maxdepth: 1
+	:maxdepth: 2
+	
+	installation/index
+	Changelog <changelog>
