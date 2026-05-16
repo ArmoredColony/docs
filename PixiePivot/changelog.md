@@ -1,0 +1,97 @@
+# PIXIE PIVOT CHANGELOG
+
+## 1.2.3
+15/May/2026
+
+### Added
+- Align Only toggle → Use the 3D cursor orientation but not it's location (preserves the current Transform Pivot Point mode).
+- Behavior Option to restore the 3D cursor to its previous location when double-tapping the activation key.
+- Behavior Option to disable multi-object scene raycasting in Edit Mode for faster snapping.
+
+### Fixed
+ - Scene raycast hitting invisible objects in Local View.
+ - Edit Mode slowdown when hovering outside mesh geometry, caused by not caching the center calculation.
+ - Crash when raycasting non-mesh objects (e.g. curves with radius).
+ - Crash when scaling the gizmo with [+] or [-] (modal hotkeys).
+
+### Removed
+- Lock Cursor Location (replaced with Align Only).
+
+## 1.2.2
+16/March/2026
+
+### Fixed
+- ValueError when using edge normals and `linked_faces` was different than 2.
+
+## 1.2.1
+12/March/2026
+
+### Fixed
+- AttributeError `build_element_styles` when resetting certain Prop Groups.
+
+## 1.2.0
+12/March/2026
+
+### Added
+- Support for targeting mesh elements while in Object Mode.
+- Snap/align between multiple objects (still limited to mesh objects).
+- Lock Cursor Location → Prevents the 3D cursor from changing location while still allowing it to rotate/align in place.
+- Bounding Box Calculation preferences: Accurate (default) vs Fast.
+
+### Changed
+- Converted the add-on into an extension.
+
+### Removed
+- Anchor to Selection → Too much dev time; may re-add if the API exposes transform_orientation and transform_pivot_point results. Replaced with simpler **Lock Cursor Location**.
+- Release Checking → It was pretty useless anyway (no updating and version notifications were super hidden).
+
+
+## 1.1.4
+09/Febuary/2026
+
+### Changed
+- Setting the Origin no longer forces GLOBAL Orientation and MEDIAN_POINT Pivot, instead it keeps your previous settings.
+
+
+## 1.1.3
+11/October/2025
+
+### Fixed
+- Error when enabling `anchor_to_selection` and no selection was available.
+
+
+## 1.1.2
+06/October/2025
+
+### Added
+- Behavior Preference **Double Tap Resets To** with pivot reset options.
+
+### Changed
+- Pressing 'DD' now resets the pivot to the previous non-cursor settings instead of always reseting to GLOBAL Orientation and MEDIAN_POINT pivot point.
+
+
+## 1.1.1
+06/September/2025
+
+### Fixed
+- AttributeError → `view3d_utils` was not being imported correctly from `bpy_extras`.
+
+
+## 1.1.0
+03/September/2025
+
+### Added
+- New Toggle Key 'Anchor to Selection' [T]: Allows aligning to other elements while keeping your pivot point near your selection.
+
+### Fixed
+- Incorrect HUD position when the 3d region was not at the bottom left.
+- Obscure case where release_check would say an update was available if the addon crashed (failed version check returned (0, 0, 0) istead of None).
+
+### Changed
+- Only draw HUDs in a single 3DView (the one that called Pixie Pivot).
+- Mouse HUD is slightly bigger (0.8 of the Fixed HUD size instead of 0.7).
+
+## 1.0.0
+28/August/2025
+
+### Initial Release
