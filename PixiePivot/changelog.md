@@ -1,7 +1,7 @@
 # PIXIE PIVOT CHANGELOG
 
 ## 1.2.3
-15/May/2026
+16/May/2026
 
 ### Added
 - Align Only toggle → Use the 3D cursor orientation but not it's location (preserves the current Transform Pivot Point mode).
