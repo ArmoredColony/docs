@@ -4,7 +4,7 @@
 16/May/2026
 
 ### Added
-- Align Only toggle → Use the 3D cursor orientation but not it's location (preserves the current Transform Pivot Point mode).
+- Align Only modal toggle <kbd>T</kbd> → Use the 3D cursor orientation but not its location (preserves the current Transform Pivot Point mode).
 - Behavior Option to restore the 3D cursor to its previous location when double-tapping the activation key.
 - Behavior Option to disable multi-object scene raycasting in Edit Mode for faster snapping.
 
@@ -12,7 +12,7 @@
  - Scene raycast hitting invisible objects in Local View.
  - Edit Mode slowdown when hovering outside mesh geometry, caused by not caching the center calculation.
  - Crash when raycasting non-mesh objects (e.g. curves with radius).
- - Crash when scaling the gizmo with [+] or [-] (modal hotkeys).
+ - Crash when scaling the gizmo with <kbd>+</kbd> or <kbd>-</kbd> (modal hotkeys).
 
 ### Removed
 - Lock Cursor Location (replaced with Align Only).
@@ -47,7 +47,7 @@
 
 
 ## 1.1.4
-09/Febuary/2026
+09/February/2026
 
 ### Changed
 - Setting the Origin no longer forces GLOBAL Orientation and MEDIAN_POINT Pivot, instead it keeps your previous settings.
@@ -67,7 +67,7 @@
 - Behavior Preference **Double Tap Resets To** with pivot reset options.
 
 ### Changed
-- Pressing 'DD' now resets the pivot to the previous non-cursor settings instead of always reseting to GLOBAL Orientation and MEDIAN_POINT pivot point.
+- Pressing <kbd>D</kbd><kbd>D</kbd> now resets the pivot to the previous non-cursor settings instead of always resetting to GLOBAL Orientation and MEDIAN_POINT pivot point.
 
 
 ## 1.1.1
@@ -81,11 +81,11 @@
 03/September/2025
 
 ### Added
-- New Toggle Key 'Anchor to Selection' [T]: Allows aligning to other elements while keeping your pivot point near your selection.
+- New Toggle Key 'Anchor to Selection' <kbd>T</kbd>: Allows aligning to other elements while keeping your pivot point near your selection.
 
 ### Fixed
 - Incorrect HUD position when the 3d region was not at the bottom left.
-- Obscure case where release_check would say an update was available if the addon crashed (failed version check returned (0, 0, 0) istead of None).
+- Obscure case where release_check would say an update was available if the addon crashed (failed version check returned (0, 0, 0) instead of None).
 
 ### Changed
 - Only draw HUDs in a single 3DView (the one that called Pixie Pivot).
