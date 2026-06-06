@@ -5,8 +5,16 @@
 
 ### Added
 - Align Only modal toggle <kbd>T</kbd> → Use the 3D cursor orientation but not its location (preserves the current Transform Pivot Point mode).
-- Behavior Option to restore the 3D cursor to its previous location when double-tapping the activation key.
-- Behavior Option to disable multi-object scene raycasting in Edit Mode for faster snapping.
+- Internal Setting to restore the 3D cursor to its previous location when double-tapping the activation key.
+- Internal Setting to limit raycasting in Edit Mode for better performance in certain situations.
+- Main Panel can be dragged to a new position directly in the viewport and supports window resizing.
+- Mouse Panel/HUD has an alternate, compact mode that displays the toggled states with their hotkey instead of the full word (B instead of [Bounds].
+- Support for snapping to non-mesh objects that have mesh representations (curves with radius, text, etc).
+
+### Changed
+- Setting the Origin mode will apply to all selected objects.
+- Main Panel styling for better readibility.
+- The Reset Pivot key <kbd>D</kbd> can now be set independently from the activation key and appears in the Main Panel.
 
 ### Fixed
  - Scene raycast hitting invisible objects in Local View.
