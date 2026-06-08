@@ -1,14 +1,14 @@
 # PIXIE PIVOT CHANGELOG
 
 ## 1.3.0
-09/Jun/2026
+08/Jun/2026
 
 ### Added
-- Align Only modal toggle <kbd>T</kbd> → Use the 3D cursor orientation but not its location (preserves the current Transform Pivot Point mode).
-- Internal Setting to restore the 3D cursor to its previous location when double-tapping the activation key.
+- **Align Only** modal toggle <kbd>T</kbd> → Use the 3D cursor orientation but not its location (preserves the current Transform Pivot Point mode).
+- Internal Setting to restore the 3D cursor to its previous location when pressing <kbd>D</kbd> after the tool is active.
 - Internal Setting to limit raycasting in Edit Mode for better performance in certain situations.
 - Main Panel can be dragged to a new position directly in the viewport and supports window resizing.
-- Mouse Panel/HUD has an alternate, compact mode that displays the toggled states with their hotkey instead of the full word (B instead of [Bounds].
+- Mouse Panel/HUD has an alternate, compact mode that displays the toggled states with their hotkey instead of the full word (e.g. B instead of [Bounds].
 - Support for snapping to non-mesh objects that have mesh representations (curves with radius, text, etc).
 
 ### Changed
