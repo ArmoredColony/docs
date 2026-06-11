@@ -1,5 +1,11 @@
 # PIXIE PIVOT CHANGELOG
 
+## 1.3.1
+11/Jun/2026
+
+### Fixed
+- Local View targeting issues specific to Blender 4.5 LTS (still present in 4.5.10 LTS but worked around for now).
+
 ## 1.3.0
 08/Jun/2026
 
